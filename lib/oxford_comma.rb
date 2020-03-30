@@ -3,7 +3,7 @@ def oxford_comma(array)
     message = array.join
     return message
   elsif array.length > 1
-    message = array
+    message = array[0..-1]
     
   end
 end
